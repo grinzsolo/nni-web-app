@@ -17,6 +17,6 @@ if st.button("Predict"):
     X = np.array([[a, b, c, d]])
     X_scaled = scaler.transform(X)
     prediction = model.predict(X_scaled)
-    st.success(f"Predicted E: {prediction[0]:.2f}")
+    st.success(f"Predicted NNI (Model HD2): {prediction[0]:.2f}")
 
 
